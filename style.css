@@ -1,0 +1,16 @@
+footer.my-4 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.featured-margin {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    min-width: 100%;
+}
+
+.featured-icon-style {
+    border-radius: 100px;
+}

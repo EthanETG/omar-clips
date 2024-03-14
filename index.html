@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OmarClips | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">OmarClips</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#support">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/clips">Clips <span class="badge text-bg-primary">New!</span></a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        OmarClips is <strong>NOT</strong> responsible for anything that happens with these clips.
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ========== Start Offcanvas (Terms of Service Agreement) ========== -->
+        <section>
+            <div class="offcanvas offcanvas-start show" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel">Terms of Service</h5>
+                    <span style="padding-bottom: 10px;" data-bs-toggle="tooltip" data-bs-placement="left"
+                        data-bs-title="You must agree to our terms of service.">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" id="closeButton"
+                            aria-label="Close" disabled></button>
+                    </span>
+                </div>
+                <div class="offcanvas-body">
+                    By accessing and using OmarClips, you are agreeing to abide by our Terms of Service, which strictly
+                    prohibit the distribution or sharing of any clips obtained from our site on any other platform or
+                    medium. This policy is in place to protect the proprietary content hosted on OmarClips and to ensure
+                    the
+                    integrity and exclusivity of our offerings. You acknowledge that OmarClips bears no responsibility
+                    for
+                    any repercussions, legal or otherwise, that may arise from your use of the clips outside our
+                    platform.
+                    This agreement reflects your understanding of our terms and your commitment to using OmarClips
+                    content
+                    responsibly and within the confines of these restrictions.
+                    <br>
+                    <hr>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"
+                        onclick="toggleButton()">
+                    <label class="form-check-label" for="flexCheckDefault" style="padding-bottom: 15px;">
+                        I agree to the terms of service.
+                    </label>
+                    <br>
+                    <span style="padding-bottom: 10px;" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="You must agree to our terms of service.">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="offcanvas"
+                            aria-label="Continue To Site" id="continueButton" disabled>Continue To Site</button>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- ========== End Offcanvas (Terms of Service Agreement) ========== -->
+
+        <div class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+                <h1 class="display-5 fw-bold text-white">Welcome!</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4">
+                        Explore the essence of Omar through OmarClips, where every clip tells a story. Dive into a world
+                        where Omar's most impactful moments are curated to inspire, entertain, and connect with a global
+                        audience. Here, every view is a step closer to the heart of Omar's legacy.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <a href="#about">
+                            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Learn
+                                More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample" style="border-radius: 0px;">
+            <div class="accordion-item" style="border-radius: 0px;">
+                <h2 class="accordion-header" style="border-radius: 0px;">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" style="border-radius: 0px;"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How We Started
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="border-radius: 0px;">
+                        OmarClips began as a passion project, driven by the desire to share the most memorable and
+                        inspiring moments of Omar with the world. Our founder, initially a fan, noticed the lack of a
+                        dedicated space to access Omar's clips and decided to bridge this gap. What started in a small,
+                        digital corner has grown into a vibrant community of enthusiasts and admirers. Our journey from
+                        a simple idea to a thriving platform showcases our commitment to celebrating Omar's impact on us
+                        all.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item" style="border-radius: 0px;">
+                <h2 class="accordion-header" style="border-radius: 0px;">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" style="border-radius: 0px;"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Our Mission
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body" style="border-radius: 0px;">
+                        At the heart of OmarClips lies a mission to curate and share the essence of Omar's legacy
+                        through captivating clips. We strive to create a repository that not only entertains but also
+                        educates and inspires our audience. By meticulously selecting moments that highlight Omar's
+                        contributions and personality, we aim to foster a deeper connection between Omar and his
+                        audience, ensuring his influence continues to resonate across generations.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-4 py-5 my-5 text-center" id="about">
+            <h1 class="display-5 fw-bold text-body-emphasis">About</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">
+                    OmarClips is your premier destination for discovering the essence and impact of Omar, through a
+                    meticulously curated collection of clips. Beyond the surface, we delve into the narratives that make
+                    each moment memorable, bringing to light the diverse aspects of Omar's influence. Our platform is
+                    designed to provide an immersive experience, inviting users to explore, share, and engage with
+                    content that spans the spectrum of Omar's contributions. Join us in celebrating the legacy that
+                    continues to inspire and connect audiences worldwide.</p>
+            </div>
+        </div>
+        <div class="container px-4 py-5 bg-dark featured-margin" id="featured-3">
+            <h2 class="pb-2 border-bottom text-white">What We Offer</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 text-white">
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16" style="padding: 10px;">
+                        <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
+                        <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
+                      </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Expertly Selected Clips</h3>
+                <p>Discover clips of Omar chosen by professionals, ensuring each selection showcases impactful moments and highlights his legacy with expert care.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16" style="padding: 10px;">
+                        <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z"/>
+                      </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">High Quality Clips</h3>
+                <p>Enjoy Omar's clips in the best possible quality, ensuring every detail is crisp and clear, enhancing your viewing experience.</p>
+              </div>
+              <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-person-fill-check" viewBox="0 0 16 16" style="padding: 10px;">
+                        <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4"/>
+                      </svg>
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Swift Support</h3>
+                <p>Experience hassle-free support with our quick and easy help options, ensuring you can get back to enjoying Omar's content with minimal interruption.</p>
+              </div>
+            </div>
+          </div>
+          <div class="px-4 py-5 my-5 text-center" id="support">
+            <h1 class="display-5 fw-bold text-body-emphasis">Need Help?</h1>
+            <div class="col-lg-6 mx-auto" style="padding-top: 50px;">
+              <p class="lead mb-4">Our dedicated support team is here to assist you with any issues or questions you might have about navigating OmarClips. Whether you need help finding a specific clip, have questions about our site features, or require technical support, we're ready to provide swift and efficient solutions. Contact us through our easy-to-use support form or email, and experience prompt assistance to ensure your time on OmarClips is enjoyable and hassle-free.</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="/contact">
+                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Contact Us</button>
+                </a>
+              </div>
+            </div>
+          </div>
+    </main>
+    <footer class="py-3 my-4 bg-dark">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="/" class="nav-link px-2 text-light">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link px-2 text-light">About</a></li>
+          <li class="nav-item"><a href="#support" class="nav-link px-2 text-light">Support</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-light">Clips</a></li>
+        </ul>
+        <p class="text-center text-light">© 2024 - OmarClips</p>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
